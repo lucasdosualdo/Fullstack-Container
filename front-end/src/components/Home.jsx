@@ -6,7 +6,7 @@ function App() {
     const API_URL = process.env.REACT_APP_BACK_END_URL;
     try {
       const { data } = await axios.get(`${API_URL}/add`);
-      alert("Nome adicionado com sucesso!");
+      alert("Nome adicionado com sucesso!!!!!!");
     } catch (error) {
       console.log(error);
       alert("Erro! O registro não foi adicionado!");
